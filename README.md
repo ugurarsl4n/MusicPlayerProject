@@ -3,8 +3,8 @@
 Bu projede, telif hakkı nedeniyle müzik dosyalarını doğrudan sağlayamıyoruz. Ancak, müzik dosyalarınızı projeye ekleyebilirsiniz. Kendi müzik dosyalarınızı eklemek için music.js dosyasına aşağıdaki formatta girişler ekleyebilirsiniz:
 
 new Music("Örnek Şarkı 1", "Artist A", "1.jpeg", "1.mp3"),
-new Music("Örnek Şarkı 2", "Artist A", "2.jpeg", "2.mp3"),
-new Music("Örnek Şarkı 3", "Artist A", "3.jpeg", "3.mp3")
+new Music("Örnek Şarkı 2", "Artist B", "2.jpeg", "2.mp3"),
+new Music("Örnek Şarkı 3", "Artist C", "3.jpeg", "3.mp3")
 
 ## Music Files
 

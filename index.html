@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <center>
+        <img  id="music-image" src="" alt="">
+        </center>
+        <audio id="audio"></audio>
+        <div id="music-details">
+            <p class="title"></p>
+            <hr>
+            <p class="singer"></p>
+        </div>
+        <div class="progress">
+            <center>
+            <input type="range" name="" id="progress-bar">
+            </center>
+            <div class="times">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        <div id="controls">
+            <i id="prev" class="fa-solid fa-backward-step"></i>
+            <i id="play" class="fa-solid fa-play"></i>
+            <i id="next"class="fa-solid fa-forward-step"></i>
+        </div>
+        <div class="sound">
+            <i class="fa-solid fa-volume-off" id="volume"></i>
+            <input type="range" name="" id="volume-bar" max="100" value="100">
+        </div>
+        <div class="list">
+            <button class="listopen"><i class="fa-solid fa-list"></i></button>
+        </div>
+    </div>
+    
+
+    <di class="sarkilar">
+        <div class="baslik">
+            <p>Müzikler</p>
+            <i class="quitbtn fa-solid fa-x" style="cursor: pointer;"></i>
+        </div>
+        <hr style="width: 75%;">
+        <div class="sarkilistesi">
+            <ul class="liste">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="music.js"></script>
+    <script src="musicplayer.js"></script>
+    <script src="app.js"></script>
+
+
+</body>
+</html>
